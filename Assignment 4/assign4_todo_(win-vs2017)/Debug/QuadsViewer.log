@@ -1,0 +1,12 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (RadiositySolver.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  quadsviewer.cpp
+C:\Users\kkmk1\OneDrive\Desktop\Y3S2\CS4247\Assignments\4\assign4_todo_(win-vs2017)\quadsviewer.cpp(30,61): warning C4305: 'initializing': truncation from 'double' to 'const GLfloat'
+C:\Users\kkmk1\OneDrive\Desktop\Y3S2\CS4247\Assignments\4\assign4_todo_(win-vs2017)\quadsviewer.cpp(31,61): warning C4305: 'initializing': truncation from 'double' to 'const GLfloat'
+C:\Users\kkmk1\OneDrive\Desktop\Y3S2\CS4247\Assignments\4\assign4_todo_(win-vs2017)\quadsviewer.cpp(32,62): warning C4305: 'initializing': truncation from 'double' to 'const GLfloat'
+C:\Users\kkmk1\OneDrive\Desktop\Y3S2\CS4247\Assignments\4\assign4_todo_(win-vs2017)\quadsviewer.cpp(36,61): warning C4305: 'initializing': truncation from 'double' to 'const GLfloat'
+C:\Users\kkmk1\OneDrive\Desktop\Y3S2\CS4247\Assignments\4\assign4_todo_(win-vs2017)\quadsviewer.cpp(37,61): warning C4305: 'initializing': truncation from 'double' to 'const GLfloat'
+C:\Users\kkmk1\OneDrive\Desktop\Y3S2\CS4247\Assignments\4\assign4_todo_(win-vs2017)\quadsviewer.cpp(38,62): warning C4305: 'initializing': truncation from 'double' to 'const GLfloat'
+C:\Users\kkmk1\OneDrive\Desktop\Y3S2\CS4247\Assignments\4\assign4_todo_(win-vs2017)\quadsviewer.cpp(174,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kkmk1\OneDrive\Desktop\Y3S2\CS4247\Assignments\4\assign4_todo_(win-vs2017)\quadsviewer.cpp(303,52): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+  QuadsViewer.vcxproj -> C:\Users\kkmk1\OneDrive\Desktop\Y3S2\CS4247\Assignments\4\assign4_todo_(win-vs2017)\Debug\QuadsViewer.exe
