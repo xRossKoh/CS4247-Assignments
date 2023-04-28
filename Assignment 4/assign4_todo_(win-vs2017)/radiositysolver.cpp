@@ -306,27 +306,28 @@ static void UpdateRadiosities(const QM_Model *m, const float shotPower[3], const
         ****************** WRITE YOUR CODE HERE ******************
         **********************************************************/
         
-        // Reflectivity of s.e. i
-        float* Ri = m->gatherers[g]->surface->reflectivity;
+        // Reflectivity of gatherer quad
+        float* reflectivity = m->gatherers[g]->surface->reflectivity;
 
-        // Radiosity of s.e. j
-        float* Bj = m->gatherers[g]->radiosity;
+        // Radiosity of gatherer quad
+        float* radiosity = m->gatherers[g]->radiosity;
 
-        // Radiosity of s.e. i
-        float* Bi = m->gatherers[g]->shooter->unshotPower;
+        // Unshot power of gatherer quad
+        // Updated for next iteration
+        float* unshotPower = m->gatherers[g]->shooter->unshotPower;
 
         // Area of gatherer quad
         float area = m->gatherers[g]->area;
 
         for (int j = 0; j < 3; j++)
         {
-            float power = Ri[j] * shotPower[j] * dF;
+            float power = reflectivity[j] * shotPower[j] * dF;
 
             // update radiosity of gatherer quad
-            Bj[j] += power / area;
+            radiosity[j] += power / area;
 
             // update unshot power of parent shooter quad
-            Bi[j] += power;
+            unshotPower[j] += power;
         }
     }
 }

@@ -1,6 +1,1 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (QuadsViewer.vcxproj, RadiosityViewer.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
-  radiositysolver.cpp
-C:\Users\kkmk1\OneDrive\Desktop\Y3S2\CS4247\Assignments\4\assign4_todo_(win-vs2017)\radiositysolver.cpp(391,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\kkmk1\OneDrive\Desktop\Y3S2\CS4247\Assignments\4\assign4_todo_(win-vs2017)\radiositysolver.cpp(512,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  RadiositySolver.vcxproj -> C:\Users\kkmk1\OneDrive\Desktop\Y3S2\CS4247\Assignments\4\assign4_todo_(win-vs2017)\Debug\RadiositySolver.exe
+﻿
